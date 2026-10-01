@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var links=document.getElementById('links');if(links){links.querySelectorAll('a').forEach(function(link){link.addEventListener('click',function(){links.classList.remove('open')})})}});
